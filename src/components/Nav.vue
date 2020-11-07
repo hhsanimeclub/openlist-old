@@ -75,77 +75,78 @@
 
 <style lang="scss">
 .nav {
-	display: flex;
-	height: 75px;
-	justify-content: center;
-	left: 0;
-	position: fixed;
-	top: 0;
-	transition: background .8s ease, color .2s;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	width: 100%;
-	z-index: 999;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: background 0.8s ease, color 0.2s;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  z-index: 999;
 }
 
 .wrap {
-	align-items: center;
-	display: flex;
-	height: 100%;
-	margin-left: 50px;
-	margin-right: 50px;
-	max-width: 1050px;
-	width: 100%;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 1050px;
+  width: 100%;
 }
 
 .links {
-	align-items: center;
-	display: inline-flex;
-	font-family: Overpass, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: 1.4rem;
-	font-weight: 600;
-	justify-content: center;
-	text-transform: capitalize;
-	width: 100%;
+  align-items: center;
+  display: inline-flex;
+  font-family: Overpass, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  justify-content: center;
+  text-transform: capitalize;
+  width: 100%;
 }
 
 .link {
-	letter-spacing: .01em;
-	padding: 18px 16px;
+  letter-spacing: 0.01em;
+  padding: 18px 16px;
 }
 
 .logo img {
-	height: 50px;
-	width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .nav .router-link-active {
-	color: rgb(var(--color-text));
+  color: rgb(var(--color-text));
 }
 
 .browse-wrap,
 .user-wrap {
-	position: relative;
+  position: relative;
 }
 
 .browse-wrap:hover .dropdown,
 .user-wrap:hover .dropdown {
-	animation: dropdown-in-data-v-4fbac4e1 .25s;
-	opacity: 1;
-	pointer-events: auto;
-	-webkit-user-select: auto;
-	-ms-user-select: auto;
-	user-select: auto;
+  animation: dropdown-in-data-v-4fbac4e1 0.25s;
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
 }
 
 .browse-wrap:hover:after,
 .user-wrap:hover:after {
-	content: "";
-	height: 20px;
-	left: 0;
-	position: absolute;
-	width: 150%;
-	top: 100%;
+  content: "";
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 150%;
+  top: 100%;
 }
 </style>
