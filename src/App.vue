@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <div class="progress" style="width: 100%;"></div>
     <router-view />
   </div>
 </template>
@@ -17,16 +14,17 @@
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+.progress {
+  background-color: #29a6ff;
+  border-radius: 0 10px 10px 0;
+  height: 4px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: width 0.3s ease, opacity 0.2s;
+  width: 0;
+  z-index: 99999;
 }
 </style>

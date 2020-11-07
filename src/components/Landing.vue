@@ -10,7 +10,7 @@
     <div class="feature-cards">
       <div class="feature-card">
         <div class="icon">
-          <img src="../assets/landing/stats.svg" />
+          <img src="/img/landing/stats.svg" />
         </div>
         <div>
           <h3 class="title">Discover the best shows</h3>
@@ -20,7 +20,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </template>
