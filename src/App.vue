@@ -7,8 +7,8 @@
 
 <style lang="scss">
 #app {
-	margin-top: 75px;
-	overflow: hidden
+  margin-top: 75px;
+  overflow: hidden;
 }
 
 .progress {

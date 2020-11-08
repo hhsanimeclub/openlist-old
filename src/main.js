@@ -15,7 +15,15 @@ import {
   faChevronRight
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faPlay, faBookOpen, faUserTie, faStar, faUserAstronaut, faThumbsUp, faChevronRight);
+library.add(
+  faPlay,
+  faBookOpen,
+  faUserTie,
+  faStar,
+  faUserAstronaut,
+  faThumbsUp,
+  faChevronRight
+);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 

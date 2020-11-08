@@ -8,13 +8,13 @@
 <script>
 // @ is an alias to /src
 import Landing from "@/components/Landing.vue";
-import Nav from "@/components/Nav.vue";
+// import Nav from "@/components/Nav.vue";
 
 export default {
   name: "Home",
   components: {
-    Landing,
-    Nav
+    Landing /*,
+    Nav*/
   }
 };
 </script>
