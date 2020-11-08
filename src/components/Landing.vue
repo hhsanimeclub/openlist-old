@@ -165,14 +165,14 @@
   transition: box-shadow 0.4s ease;
 }
 
-.join-btn .label {
+.label {
   color: #f7fafc;
   font-size: 1.8rem;
   font-weight: 800;
   text-align: center;
 }
 
-.join-btn .circle {
+.circle {
   background: #d9e6ff;
   color: #3577ff;
   font-size: 2rem;
