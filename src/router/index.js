@@ -9,7 +9,7 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home
-  },
+  }/*,
   {
     path: "/forum",
     name: "Forum",
@@ -17,8 +17,8 @@ const routes = [
     // this generates a separate chunk (forum.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "forum" */ "../views/Forum.vue")
-  }
+      import(/ webpackChunkName: "forum" / "../views/Forum.vue")
+  }*/
 ];
 
 const router = new VueRouter({

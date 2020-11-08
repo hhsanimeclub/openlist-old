@@ -11,10 +11,11 @@ import {
   faUserTie,
   faStar,
   faUserAstronaut,
-  faThumbsUp
+  faThumbsUp,
+  faChevronRight
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faPlay, faBookOpen, faUserTie, faStar, faUserAstronaut, faThumbsUp);
+library.add(faPlay, faBookOpen, faUserTie, faStar, faUserAstronaut, faThumbsUp, faChevronRight);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 

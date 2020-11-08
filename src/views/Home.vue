@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Landing />
-    <Nav />
+    <!--<Nav />-->
   </div>
 </template>
 
